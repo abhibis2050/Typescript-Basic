@@ -1,11 +1,14 @@
 export const initialState = {
-    name:"avi",
-    age:"27"
+    name:"Abhisek",
+    age:27
 }
 
-type actionType ={
-    type:string,
+export type actionType ={
+    type:"CHANGE_NAME",
     payload:string
+}|{
+    type:"UPDATE_AGE",
+    payload:number
 }
 
 export const reducer = (state:typeof initialState,action:actionType )=>{
