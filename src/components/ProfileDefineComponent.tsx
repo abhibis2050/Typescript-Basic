@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{FC} from 'react'
 
 type ProfileProps={
   name:String,
@@ -7,7 +7,7 @@ type ProfileProps={
   children?:React.ReactNode
 }
 
-const ProfileDefineComponent:React.FC<ProfileProps>= ({name,age,favSubject,children}) => {
+const ProfileDefineComponent:FC<ProfileProps>= ({name,age,favSubject,children}) => {
   return (
     <div>
       <h3>Profile with type Destructuring</h3>

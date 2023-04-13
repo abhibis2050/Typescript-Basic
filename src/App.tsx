@@ -5,6 +5,7 @@ import ProfileDefineComponent from './components/ProfileDefineComponent';
 import ProfileWithType from './components/ProfilewithType';
 import ProfileWithTypeDes from './components/ProfilewithType Destructuring';
 import ProfileZero from './components/ProfileZero';
+import Todo from './components/Todo';
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
     {/* <ProfileWithTypeDes name="Abhisek" age={10} favSubject="coputer Science">
       coader
     </ProfileWithTypeDes> */}
-    <ProfileDefineComponent  name="Abhisek" age={10} favSubject="coputer Science">
+    {/* <ProfileDefineComponent  name="Abhisek" age={10} favSubject="coputer Science">
       coader
-    </ProfileDefineComponent>
+    </ProfileDefineComponent> */}
+    <Todo/>
     </div>
   );
 }
